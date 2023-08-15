@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(202, 194, 207);
+    background:linear-gradient(to right bottom, #9be383,#31abbe);
+}
+.main{
+    border:2px solid rgb(244, 235, 235);
+    border-radius: 10px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+
+    
+  
+    width:400px;
+    height: 450px;
+    /* background-color: rgb(134, 166, 161); */
+    background:transparent;
+    box-shadow: 5px 5px 10px #bdb6b6 ,15px 14px 100px #cdbdbd;
+}
+ h1{
+   
+    font-size:30px;
+    margin-block:5px;
+    margin-left: 40px;
+    margin-top:0.1px;
+    font-weight:bolder;
+    color:rgb(15, 7, 1);
+    /* box-shadow: 2px 5px 10px #e3dddd ,15px 14px 100px #eae9e9; */
+    background:transparent;
+    font-family: 'Lato', sans-serif;
+  
+
+}
+
+.passwordspace{
+    border:none;
+    background-color: #f3eded;
+    outline:none;
+    padding:7px;
+    width:350px;
+    border-radius: 6px;
+    font-size: 25px;
+    margin-block:8px;
+    text-overflow: ellipsis;
+}
+.row{
+    display: flex;
+    margin-block:8px;
+
+}
+.row p,.row label{
+    flex-basis:100%;
+    font-size: 20px;
+
+}
+.row input[type="checkbox"]{
+    width:20px;
+    height: 20px;
+
+}
+.button{
+    border:none;
+    outline:none;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(37, 80, 136);
+    padding:20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor:pointer;
+    margin-top:22px;
+}
+/* button{
+    width:90%;
+    /* display: flex; */
+    /* top:50%;
+    
+} */ 
+.button:hover{
+    background-color: rgb(67, 67, 202);
+    font-size: 22px;
+
+}
+
+.row p{
+    font-size:22px;
+    
+}
+#slidervalue{
+    font-size:20px;
+
+
+}
+.uppermain{
+    position: relative;
+
+}
+.uppermain span{
+    position:absolute;
+    top:20px;
+    right:10px;
+    font-size: 25px;
+    cursor: pointer;
+    z-index:2;
+}
